@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title><% Response.Write(db.projtitle.ToString()); %></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" enctype="multipart/form-data">
+    <div class="page">
+        <div class="header">
+            <div class="userstatus">
+                Welcome 
+                <asp:Label ID="lblUser" runat="server" Text=""></asp:Label>
+                <br />
+                <asp:Button ID="lbtLogout" runat="server" Text="Logout" CssClass="btn" 
+                    onclick="lbtLogout_Click" />
+            </div>
+        </div>
+
+        <div class="nav">
+            <ul>
+                <li><a href="Default.aspx">Home</a></li>
+                <li><a href="Registration.aspx">Registration</a></li>
+                <li><a href="Login.aspx">Login</a></li>
+                <li><a href="UserDashboard.aspx">My Files</a></li>
+                <li><a href="ForgotPassword.aspx">Forgot Password</a></li>
+            </ul>
+        </div>
+
+
+        <div class="content">
+                <div class="content_right">
+            
+                    <img src="ad.jpg" height="493" width="290" />
+                </div>
+
+            <div class="content_left">
+                <asp:ScriptManager ID="ScriptManager1" runat="server">
+                </asp:ScriptManager>
+                <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                    <Triggers>
+                        
+                    </Triggers>
+                    <ContentTemplate>
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                    </ContentTemplate>
+                </asp:UpdatePanel>  
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="footer">
+            <% Response.Write(db.projtitle.ToString()); %> &copy; <% Response.Write(DateTime.Now.Year.ToString()); %>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

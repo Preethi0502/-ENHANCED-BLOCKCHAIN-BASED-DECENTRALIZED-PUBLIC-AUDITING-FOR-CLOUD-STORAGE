@@ -1,0 +1,157 @@
+﻿body
+{
+    margin:0px;
+    padding:0px;
+    background-color:#666;
+    font-family:'Trebuchet MS';
+    font-size:16px;
+}
+.page
+{
+    width:920px;
+    border:1px #C3762E solid;
+    margin:50px auto;
+    background-color:#FFF;
+    box-shadow:#333 0px 0px 30px;
+}
+.header
+{
+    height:145px;
+    width:100%;
+    background-image:url('logo.png');
+}
+.userstatus
+{
+    width:500px;
+    float:right;
+    padding-right:10px;
+    height:120px;
+    padding-top:10px;
+    font-size:14px;
+    color:#444;
+    text-align:right;
+    vertical-align:text-bottom;
+}
+.nav
+{
+    width:100%;
+    background-color:#F39943;
+}
+.nav ul
+{
+    display:inline;
+    margin:0px;
+}
+.nav ul li
+{
+    display:inline-block;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:15px;
+    padding-bottom:15px;
+    color:#FFF;
+    transition:ease-in-out;
+    transition-duration:0.3s;
+}
+.nav ul li:hover
+{
+    background-color:#C3762E;
+}
+.nav ul li a
+{
+    color:inherit;
+    font-size:16px;
+    text-decoration:none;
+}
+.content
+{
+    padding-top:10px;
+    padding-bottom:20px;
+    width:100%;
+    clear:both;
+}
+.content_left
+{
+    padding-left:10px;
+    padding-right:10px;
+    width:600px;
+    float:right;
+    min-height:500px;
+}
+.content_right
+{
+    width:290px;
+    float:left;
+}
+.clearfix
+{
+    clear:both;
+}
+.footer
+{
+    width:100%;
+    background-color:#C3762E;
+    padding-top:30px;
+    padding-bottom:10px;
+    color:#FFF;
+    text-align:center;
+}
+h1
+{
+    color:#C3762E;
+    font-size:18px;
+    line-height:1;
+}
+p
+{
+    color:#444;
+    text-align:justify;
+    font-size:16px;
+    line-height:1.7;
+    padding-bottom:20px;
+}
+.btn
+{
+   background-color:#C3762E;
+   padding-top:6px;
+   padding-bottom:6px;
+   padding-left:10px;
+   padding-right:10px;
+   border:0px;
+   color:#EEE;
+   font-size:14px;
+}
+.btn:hover
+{
+    background-color:#774211;
+}
+table tr
+{
+    height:30px;
+}
+.tc150
+{
+}
+.tc200
+{
+    width:200px;
+}
+.tc250
+{
+}
+.tc300
+{
+    width:300px;
+}
+#joinnow
+{
+    font-size:18px;
+    font-weight:500;
+    font-family:Tahoma, Geneva, sans-serif;
+    color:#fff;
+    text-align:center;
+    position:relative;
+    float:right;
+    height: 160px;
+    width:260px;
+}
