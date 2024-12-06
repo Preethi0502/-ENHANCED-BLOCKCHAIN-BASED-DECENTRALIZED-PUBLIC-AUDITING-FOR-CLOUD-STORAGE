@@ -3,32 +3,24 @@
 ## Project Description
 This project introduces a **Privacy-Preserving Authentication Protocol** specifically designed for **cloud storage**. By integrating **Blockchain**, **Attribute-Based Access Control (ABAC)**, and **Proxy Re-Encryption**, it ensures secure access, dynamic permission management, and data confidentiality, addressing the growing need for enhanced cloud security.
 
----
-
 ## Goal of the Project
 - **Purpose**: Secure sensitive data stored in the cloud by preventing unauthorized access and maintaining data integrity during both access and sharing.
 - **Outcome**: Reduction in data breaches and improved confidence in cloud storage systems.
-
----
 
 ## Problem Solved
 - **Challenge**: Unauthorized access to sensitive data stored in the cloud.
 - **Solution**: A decentralized auditing system leveraging blockchain technology to enhance security and privacy for cloud storage.
 
----
-
 ## Features and Impact
 ### Key Functionalities:
-1. Anonymous access requests for users.
-2. Real-time data integrity verification.
-3. Dynamic permission management for secure data sharing.
+- Anonymous access requests for users.
+- Real-time data integrity verification.
+- Dynamic permission management for secure data sharing.
 
 ### Outcomes:
 - Enhanced data security and confidentiality.
 - Positive user feedback on usability and trust.
 - Significant reduction in data breaches, leading to safer cloud environments.
-
----
 
 ## Technologies and Tools Used
 ### Technologies:
@@ -41,8 +33,6 @@ This project introduces a **Privacy-Preserving Authentication Protocol** specifi
 - **Visual C#**: Primary programming language.
 - **SQL Server**: Database management system.
 - **Microsoft Visual Studio**: Integrated development environment.
-
----
 
 ## Installation Instructions
 **Step 1**: Clone the Repository
@@ -59,28 +49,29 @@ Other database structures.
 
 ## How to Run the Demo
 ### Database Configuration
-Ensure **SQL Server** is running.
-Verify the database structure matches the provided scripts.
+- Ensure **SQL Server** is running.
+- Verify the database structure matches the provided scripts.
 ### Run the Application
-Open the solution in Microsoft Visual Studio.
-Build the project.
-Press **F5** or select Run to launch the application locally.
+- Open the solution in Microsoft Visual Studio.
+- Build the project.
+- Press **F5** or select Run to launch the application locally.
 ### Simulate Access and Permissions
-Create test users.
-Initiate access requests.
-Test the dynamic permission management features.
+- Create test users.
+- Initiate access requests.
+- Test the dynamic permission management features.
 
 ## About the Development
 Timeline: June 2023 – April 2024
 
 ## Key Contributions:
-Designed a robust Privacy-Preserving Authentication Protocol.
-Implemented anonymous access requests and dynamic permission management.
-Reduced the risk of unauthorized access, ensuring data confidentiality.
+- Designed a robust Privacy-Preserving Authentication Protocol.
+- Implemented anonymous access requests and dynamic permission management.
+- Reduced the risk of unauthorized access, ensuring data confidentiality.
+  
 ## Key Takeaways
-**Scalable Security**: Provides effective and scalable authentication for cloud storage.
-**User-Centric Design**: Focused on usability and maintaining user trust.
-**Future-Ready**: Adaptable to evolving security needs in cloud technology.
+- **Scalable Security**: Provides effective and scalable authentication for cloud storage.
+- **User-Centric Design**: Focused on usability and maintaining user trust.
+- **Future-Ready**: Adaptable to evolving security needs in cloud technology.
 
 ## Contact
 For questions or contributions, please reach out via GitHub Issues.
