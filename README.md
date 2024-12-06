@@ -1,4 +1,4 @@
-# Enhanced Blockchain-Based Decentralized Public Auditing for Cloud Storage
+# ENHANCED BLOCKCHAIN BASED DECENTRALIZED PUBLIC AUDITING FOR CLOUD STORAGE 
 
 ## Project Description
 This project introduces a **Privacy-Preserving Authentication Protocol** specifically designed for **cloud storage**. By integrating **Blockchain**, **Attribute-Based Access Control (ABAC)**, and **Proxy Re-Encryption**, it ensures secure access, dynamic permission management, and data confidentiality, addressing the growing need for enhanced cloud security.
