@@ -35,17 +35,17 @@ This project introduces a **Privacy-Preserving Authentication Protocol** specifi
 - **Microsoft Visual Studio**: Integrated development environment.
 
 ## Installation Instructions
-**Step 1**: Clone the Repository 
-- git clone https://github.com/Preethi0502/Enhanced-Blockchain-Based-Decentralized-Public-Auditing-for-Cloud-Storage.git
-**Step 2**: Open the Project in Microsoft Visual Studio
-- Navigate to the downloaded repository folder.
-- Open the solution file (.sln) using Microsoft Visual Studio.
-**Step 3**: Database Setup in SQL Server
-- Open SQL Server Management Studio.
-- Execute the provided SQL scripts (located in the repository) to set up:
-   - Necessary tables.
-   - Permissions.
-   - Other database structures.
+- **Step 1**: Clone the Repository 
+    - git clone https://github.com/Preethi0502/Enhanced-Blockchain-Based-Decentralized-Public-Auditing-for-Cloud-Storage.git
+- **Step 2**: Open the Project in Microsoft Visual Studio
+    - Navigate to the downloaded repository folder.
+    - Open the solution file (.sln) using Microsoft Visual Studio.
+- **Step 3**: Database Setup in SQL Server
+   - Open SQL Server Management Studio.
+   - Execute the provided SQL scripts (located in the repository) to set up:
+      - Necessary tables.
+      - Permissions.
+      - Other database structures.
 
 ## How to Run the Demo
 ### Database Configuration
